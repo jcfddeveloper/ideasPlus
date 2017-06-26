@@ -1,0 +1,66 @@
+
+table tr th, table tr td{font-size: 1.2rem;background:white;}
+.row{ margin:20px 20px 20px 20px;width: 100%;}
+.glyphicon{font-size: 20px;}
+.glyphicon-plus{float: right;}
+a.glyphicon{text-decoration: none;cursor: pointer;}
+.glyphicon-trash{margin-left: 10px;}
+.alert{
+    width: 50%;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tituloName{
+   color: blue;
+text-align: center;
+    border-bottom: 1px solid black;
+}
+.row img{
+    width: 100%;
+    max-width: 200px;
+}
+
+/*Estilos Generales Cesar Ferreira*/
+  body{
+              width: 100%;
+              height: 870px;
+              background:url(../recursos/ideas.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+
+          .row{
+              margin: 20px 0px 20px 0px;
+          }
+          .ideasplusTitle{
+              width: 100%;
+              text-align: center;
+            margin-top:20px;
+          }
+          .ideasplusTitle span:nth-child(1){
+              color: white;
+          }   .ideasplusTitle span:nth-child(2){
+              color: white;
+          }
+             .ideasplusTitle span{
+              font-size: 80px;
+              font-family: 'Open Sans';
+                 width: 100%;
+          }
+          .centerAlert{
+              margin: 0 auto;
+          }
+          .ideasplusTitle p{
+              color: white;
+              font-size: 14px;
+              font-family: 'Open Sans';
+          }
+          label{
+              color: white;
+              font-size: 14px;
+              
+          }
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+            background: lightgrey;
+          }
